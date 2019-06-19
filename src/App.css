@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(250, 253, 236);
+}
+
+#root {
+  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.people {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin: 0px 10px 0px 10px;
+}
+
+table {
+  background-color: rgb(253, 245, 214);
+}
+
+table,
+td,
+th {
+  border: 1px black collapse;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: rgb(238, 222, 163);
+  margin-bottom: 11px;
+}
+th:hover {
+  background-color: rgb(221, 201, 123);
+}
+
+tr:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+td:hover {
+  outline: 1px solid rgb(95, 133, 238);
+}
+
+.person--father {
+  background-color: rgb(194, 209, 250);
+}
+
+.person--female {
+  background-color: rgb(255, 213, 221);
+}
+
+.inputText {
+  width: 100%;
+  font-size: 15px;
+  margin: 0px 0px 10px 0px;
+  padding: 5px 5px 5px 5px;
+  border: 4px solid rgb(253, 245, 214);
+}
+.inputText:focus {
+  outline: none;
+  border: 4px solid rgb(238, 222, 163);
+}
+
+.hide {
+  display: none;
+}
+
+.age--More--65 {
+  outline: 1px green solid;
+}
+
+.selectedCell {
+  outline: 2px solid rgb(88, 122, 235);
+}
+
+.selectedCell:hover {
+  outline: 2px solid rgb(88, 122, 235);
+}
